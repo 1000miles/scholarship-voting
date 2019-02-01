@@ -91,9 +91,9 @@
   function showInfo(data) {
     totalRows = data.length;
     data = data.map(function (proposal) {
-      proposal.topicofpresentation = proposal["motivation_and_goals"];
-      proposal.summary = proposal["about"];
-      proposal.extra = "";
+      proposal.topicofpresentation = proposal["motivation"]; // value must match google sheet column name
+      proposal.summary = proposal["about"]; // value must match google sheet column name
+      proposal.extra = ""; // google sheet column can be empty
       proposal.sheetRowNumber = proposal.rowNumber + 1;
       return proposal;
     })
