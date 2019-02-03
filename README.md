@@ -1,5 +1,7 @@
 # Scholarship Submissions Review
 
+This repo is a fork of https://github.com/cssconf/talks-voting that derived originally from https://github.com/theophani/cfp-review.
+
 ## How to set up the voting tool
 
 1. Fork this repo and rename it properly, if needed.
