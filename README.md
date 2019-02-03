@@ -12,11 +12,14 @@ This repo is a fork of https://github.com/cssconf/talks-voting that derived orig
 **Examples:**
 
 Google Spreadsheet column names:
-    - "Motivation"
-    - "About"
-    - empty
+
+- "Motivation"
+- "About"
+- empty
 
 ```js
+
+// script.js
 
 function showInfo(data) {
     totalRows = data.length;
